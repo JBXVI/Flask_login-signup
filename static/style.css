@@ -1,0 +1,28 @@
+body{
+    background-color:#2b2b2b;
+    color:white;
+}
+#h1{
+    color:green;
+    text-align:center;
+}
+#btn1{
+    background-color:#2b2b;
+    border:none;
+    color:white;
+    position:relative;
+    left:300px;
+    font-size: 20px;;
+}
+#btn2{
+    background-color:yellowgreen;
+    border:none;
+    color:white;
+    position:relative;
+    left:300px;
+    font-size:20px;
+}
+#h2{
+    color:#2b2b;
+    text-align:center;
+}
