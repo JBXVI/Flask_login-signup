@@ -1,0 +1,44 @@
+body{
+    background-color:#2b2b2b;
+}
+#uname{
+    background-color:#2b2b2b;
+    border:none;
+    border-bottom:2px solid yellowgreen;
+    font-size:18px;
+    position:relative;
+    left:250px;
+    color:white;
+
+}
+#pwd{
+    background-color:#2b2b2b;
+    border:none;
+    border-bottom:2px solid yellowgreen;
+    font-size:18px;
+    position:relative;
+    left:250px;
+    color:white;
+}
+#msg{
+    background-color:#2b2b2b;
+    border:none;
+    border-bottom:2px solid yellowgreen;
+    font-size:18px;
+    position:relative;
+    left:250px;
+    color:white;
+}
+#btn1{
+    background-color:#2b2b;
+    border:none;
+    color:white;
+    font-size: 20px;
+    position:relative;
+    left:300px;
+}
+#h2{
+    color:#2b2b;
+    font-size:30px;
+    text-align: center;
+}
