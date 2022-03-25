@@ -9,14 +9,18 @@ class Login:
 
     def flask_app(self):
         app = Flask(__name__)
+        
+        #mongo 
         app.config["MONGO_URI"] = "mongodb://localhost:27017/users"
         mongo = PyMongo(app)
         f = mongo.db.users
-
+        
+        #index page setup
         @app.route("/", methods=["GET", "POST"])
         def home():
             return render("index.html", message="sign up or login")
-
+        
+        #signup page setup
         @app.route("/signup", methods=["GET", "POST"])
         def signup():
             if req.method == "POST":
@@ -31,7 +35,8 @@ class Login:
                 if True:
                     return render("index.html", message="Signup completed please Login")
             return render("signup.html")
-
+        
+        #login page setup
         @app.route('/login', methods={"GET", "POST"})
         def login():
             if req.method == "POST":
