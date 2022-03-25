@@ -7,5 +7,5 @@ by JBXVI
 mongo server required
 
 features:
-  signup
+  signup,
   login
