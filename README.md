@@ -12,7 +12,5 @@ current features:
   
  features coming soon:
     delete account,
-    
     change password (UPDATE),
-    
     chat application(Python Socket),
