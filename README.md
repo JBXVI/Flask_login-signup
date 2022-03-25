@@ -6,6 +6,13 @@ by JBXVI
 
 mongo server required
 
-features:
+current features:
   signup,
   login
+  
+ features coming soon:
+    delete account,
+    
+    change password (UPDATE),
+    
+    chat application(Python Socket),
